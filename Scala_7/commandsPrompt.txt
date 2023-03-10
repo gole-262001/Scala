@@ -1,0 +1,248 @@
+Microsoft Windows [Version 10.0.22000.1455]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\Nexturn\offline_training\Scala_7>scalac HelloWorld.scala
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+1 warning
+
+D:\Nexturn\offline_training\Scala_7>scala HelloWorld.scala
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+Hello World
+
+D:\Nexturn\offline_training\Scala_7>scalac  HelloWorld.scala
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+1 warning
+
+D:\Nexturn\offline_training\Scala_7>scala  HelloWorld.scala
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+Hello World
+
+D:\Nexturn\offline_training\Scala_7>scalac  HelloWorld.scala
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+1 warning
+
+D:\Nexturn\offline_training\Scala_7>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 861A-13D9
+
+ Directory of D:\Nexturn\offline_training\Scala_7
+
+03/02/2023  10:37 AM    <DIR>          .
+03/02/2023  09:31 AM    <DIR>          ..
+03/02/2023  10:37 AM                97 HelloWorld.scala
+03/02/2023  10:43 AM               681 ScalaExample$.class
+03/02/2023  10:43 AM               717 ScalaExample.class
+               3 File(s)          1,495 bytes
+               2 Dir(s)  301,500,428,288 bytes free
+
+D:\Nexturn\offline_training\Scala_7>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 861A-13D9
+
+ Directory of D:\Nexturn\offline_training\Scala_7
+
+03/02/2023  11:24 AM    <DIR>          .
+03/02/2023  09:31 AM    <DIR>          ..
+03/02/2023  11:24 AM               115 booleanExample.scala
+03/02/2023  10:37 AM                97 HelloWorld.scala
+03/02/2023  10:43 AM               681 ScalaExample$.class
+03/02/2023  10:43 AM               717 ScalaExample.class
+               4 File(s)          1,610 bytes
+               2 Dir(s)  301,500,428,288 bytes free
+
+D:\Nexturn\offline_training\Scala_7>scala booleanExample.scala
+booleanExample.scala:4: error: illegal start of simple pattern
+                var = i = true;
+                    ^
+booleanExample.scala:4: error: '=' expected but ';' found.
+                var = i = true;
+                              ^
+
+D:\Nexturn\offline_training\Scala_7>scala booleanExample.scala
+booleanExample.scala:1: error: not found: value objrct
+objrct datatypesExample{
+^
+
+D:\Nexturn\offline_training\Scala_7>scala booleanExample.scala
+true
+
+D:\Nexturn\offline_training\Scala_7>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 861A-13D9
+
+ Directory of D:\Nexturn\offline_training\Scala_7
+
+03/02/2023  11:34 AM    <DIR>          .
+03/02/2023  09:31 AM    <DIR>          ..
+03/02/2023  11:32 AM               117 booleanExample.scala
+03/02/2023  10:37 AM                97 HelloWorld.scala
+03/02/2023  10:43 AM               681 ScalaExample$.class
+03/02/2023  10:43 AM               717 ScalaExample.class
+03/02/2023  11:34 AM               124 shortvariable.scala
+               5 File(s)          1,736 bytes
+               2 Dir(s)  301,500,428,288 bytes free
+
+D:\Nexturn\offline_training\Scala_7>scala shortvariable.scala
+shortvariable.scala:4: error: not found: type short
+                var i:short = 32777;
+                      ^
+
+D:\Nexturn\offline_training\Scala_7>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 861A-13D9
+
+ Directory of D:\Nexturn\offline_training\Scala_7
+
+03/02/2023  11:48 AM    <DIR>          .
+03/02/2023  09:31 AM    <DIR>          ..
+03/02/2023  11:48 AM               233 AllDataType.scala
+03/02/2023  11:32 AM               117 booleanExample.scala
+03/02/2023  10:37 AM                97 HelloWorld.scala
+03/02/2023  10:43 AM               681 ScalaExample$.class
+03/02/2023  10:43 AM               717 ScalaExample.class
+03/02/2023  11:36 AM               171 shortvariable.scala
+               6 File(s)          2,016 bytes
+               2 Dir(s)  301,500,424,192 bytes free
+
+D:\Nexturn\offline_training\Scala_7>scala AllDataType.scala
+AllDataType.scala:11: error: integer number too large
+var k:long-9223372036854775000 //k-9223372036854775000
+           ^
+
+D:\Nexturn\offline_training\Scala_7>scala AllDataType.scala
+AllDataType.scala:11: error: integer number too large
+var k:long-9223372036854775000; //k-9223372036854775000
+           ^
+
+D:\Nexturn\offline_training\Scala_7>scala AllDataType.scala
+AllDataType.scala:11: error: integer number too large
+var k:long-9223372036854775000; //k-9223372036854775000
+           ^
+
+D:\Nexturn\offline_training\Scala_7>scala AllDataType.scala
+AllDataType.scala:11: error: integer number too large
+var k:long = 9223372036; //k-9223372036854775000
+             ^
+
+D:\Nexturn\offline_training\Scala_7>scala AllDataType.scala
+AllDataType.scala:3: error: not found: type -
+var i:short-32755; //i=32755
+           ^
+AllDataType.scala:3: error: only traits and abstract classes can have declared but undefined members
+var i:short-32755; //i=32755
+    ^
+AllDataType.scala:11: error: not found: type long
+var k:long = 2036; //k-9223372036854775000
+      ^
+
+D:\Nexturn\offline_training\Scala_7>scala AllDataType.scala
+AllDataType.scala:3: error: not found: type short
+var i:short = 755; //i=32755
+      ^
+AllDataType.scala:11: error: not found: type long
+var k:long = 2036; //k-9223372036854775000
+      ^
+
+D:\Nexturn\offline_training\Scala_7>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 861A-13D9
+
+ Directory of D:\Nexturn\offline_training\Scala_7
+
+03/02/2023  12:14 PM    <DIR>          .
+03/02/2023  09:31 AM    <DIR>          ..
+03/02/2023  11:59 AM               394 AllDataType.scala
+03/02/2023  11:32 AM               117 booleanExample.scala
+03/02/2023  10:37 AM                97 HelloWorld.scala
+03/02/2023  10:43 AM               681 ScalaExample$.class
+03/02/2023  10:43 AM               717 ScalaExample.class
+03/02/2023  11:36 AM               171 shortvariable.scala
+03/02/2023  12:14 PM               325 studentPercentage.scala
+               7 File(s)          2,502 bytes
+               2 Dir(s)  301,500,424,192 bytes free
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala
+studentPercentage.scala:11: error: not found: value fourth
+        var ans = ((first+second+third+fourth+five)/5) * 100 ;
+                                       ^
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+java.lang.ArrayIndexOutOfBoundsException: 0
+        at Main$.main(studentPercentage.scala:4)
+        at Main.main(studentPercentage.scala)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at scala.reflect.internal.util.RichClassLoader$.$anonfun$run$extension$1(ScalaClassLoader.scala:101)
+        at scala.reflect.internal.util.RichClassLoader$.run$extension(ScalaClassLoader.scala:36)
+        at scala.tools.nsc.CommonRunner.run(ObjectRunner.scala:30)
+        at scala.tools.nsc.CommonRunner.run$(ObjectRunner.scala:28)
+        at scala.tools.nsc.ObjectRunner$.run(ObjectRunner.scala:45)
+        at scala.tools.nsc.CommonRunner.runAndCatch(ObjectRunner.scala:37)
+        at scala.tools.nsc.CommonRunner.runAndCatch$(ObjectRunner.scala:36)
+        at scala.tools.nsc.AbstractScriptRunner.runCompiled(ScriptRunner.scala:168)
+        at scala.tools.nsc.AbstractScriptRunner.$anonfun$runScript$1(ScriptRunner.scala:177)
+        at scala.tools.nsc.AbstractScriptRunner.$anonfun$withCompiledScript$9(ScriptRunner.scala:154)
+        at scala.tools.nsc.util.package$.waitingForThreads(package.scala:55)
+        at scala.tools.nsc.AbstractScriptRunner.runScript(ScriptRunner.scala:151)
+        at scala.tools.nsc.MainGenericRunner.runTarget$1(MainGenericRunner.scala:74)
+        at scala.tools.nsc.MainGenericRunner.run$1(MainGenericRunner.scala:91)
+        at scala.tools.nsc.MainGenericRunner.process(MainGenericRunner.scala:103)
+        at scala.tools.nsc.MainGenericRunner$.main(MainGenericRunner.scala:108)
+        at scala.tools.nsc.MainGenericRunner.main(MainGenericRunner.scala)
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 99 88 77 66 55
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+0
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage xyz 99 88 77 66 55
+No such file or class on classpath: studentPercentage
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 99 88 77 66 55
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+0
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 99 88 77 66 55
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+77
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 99 88 77 66 55
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+percentage of xyz id77
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 99 88 77 66 55
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+77
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 99 88 77 66 55
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+percentage of xyz77
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 99 88 77 66 55
+studentPercentage.scala:12: error: ')' expected but string literal found.
+          println("percentage of " +name " " +ans )
+                                         ^
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 99 88 77 66 55
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+percentage of xyz 77
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 99 88 77 66 55
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+Pass
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 22 33 22 11 10
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+Fail
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 22 33 22 11 10
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+Fail
+
+D:\Nexturn\offline_training\Scala_7>scala studentPercentage.scala xyz 22 33 22 11 10
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+Fail
+
+D:\Nexturn\offline_training\Scala_7>

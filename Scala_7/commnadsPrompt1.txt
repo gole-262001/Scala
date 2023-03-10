@@ -1,0 +1,348 @@
+Microsoft Windows [Version 10.0.22000.1455]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\Nexturn\offline_training\Scala_7>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 861A-13D9
+
+ Directory of D:\Nexturn\offline_training\Scala_7
+
+03/02/2023  02:14 PM    <DIR>          .
+03/02/2023  09:31 AM    <DIR>          ..
+03/02/2023  11:59 AM               394 AllDataType.scala
+03/02/2023  11:32 AM               117 booleanExample.scala
+03/02/2023  01:04 PM            10,808 commandsPrompt.txt
+03/02/2023  10:37 AM                97 HelloWorld.scala
+03/02/2023  10:43 AM               681 ScalaExample$.class
+03/02/2023  10:43 AM               717 ScalaExample.class
+03/02/2023  02:14 PM               175 ScalaReadLineFunction.scala
+03/02/2023  11:36 AM               171 shortvariable.scala
+03/02/2023  01:05 PM               435 studentPercentage.scala
+               9 File(s)         13,595 bytes
+               2 Dir(s)  301,500,936,192 bytes free
+
+D:\Nexturn\offline_training\Scala_7>scala ScalaReadLineFunction.scala
+ScalaReadLineFunction.scala:4: error: not found: value readLine
+var name:String = readLine()
+                  ^
+ScalaReadLineFunction.scala:5: error: not found: value readInt
+var marks:Int = readInt()
+                ^
+
+D:\Nexturn\offline_training\Scala_7>scala ScalaReadLineFunction.scala
+Enter the Name
+abhishek
+5
+the name enter is abhishek
+
+D:\Nexturn\offline_training\Scala_7>scala ScalaReadLineFunction.scala
+Enter the Name
+abhishek
+Enter the student id
+5
+the name enter is abhishekand Id is 5
+
+D:\Nexturn\offline_training\Scala_7>scala ScalaReadLineFunction.scala
+Enter the Name
+abhishek Gole
+Enter the student id
+5
+the name enter is abhishek Gole and Id is 5
+
+D:\Nexturn\offline_training\Scala_7>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 861A-13D9
+
+ Directory of D:\Nexturn\offline_training\Scala_7
+
+03/02/2023  02:43 PM    <DIR>          .
+03/02/2023  09:31 AM    <DIR>          ..
+03/02/2023  11:59 AM               394 AllDataType.scala
+03/02/2023  11:32 AM               117 booleanExample.scala
+03/02/2023  01:04 PM            10,808 commandsPrompt.txt
+03/02/2023  10:37 AM                97 HelloWorld.scala
+03/02/2023  02:43 PM               260 patternmatching.scala
+03/02/2023  10:43 AM               681 ScalaExample$.class
+03/02/2023  10:43 AM               717 ScalaExample.class
+03/02/2023  02:20 PM               295 ScalaReadLineFunction.scala
+03/02/2023  11:36 AM               171 shortvariable.scala
+03/02/2023  01:05 PM               435 studentPercentage.scala
+              10 File(s)         13,975 bytes
+               2 Dir(s)  301,500,936,192 bytes free
+
+D:\Nexturn\offline_training\Scala_7>scala object Student{
+No such file or class on classpath: object
+
+D:\Nexturn\offline_training\Scala_7>def main(args:Array[String])
+'def' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>{
+'{' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>var name = args(0)
+'var' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>var first = args(1).toInt
+'var' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>      var second = args(2).toInt
+'var' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>      var third = args(3).toInt
+'var' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>      var fourth = args(4).toInt
+'var' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>      var five = args(5).toInt
+'var' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>
+D:\Nexturn\offline_training\Scala_7>        var ans = ((first+second+third+fourth+five)/5) ;
+'var' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>// println("percentage of " +name +" " +ans);
+'//' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>if(ans >= 30)
+> was unexpected at this time.
+
+D:\Nexturn\offline_training\Scala_7>{
+'{' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>println("Pass")
+'println' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>
+D:\Nexturn\offline_training\Scala_7>}else{println("Fail")}
+'}else{println' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>
+D:\Nexturn\offline_training\Scala_7>
+D:\Nexturn\offline_training\Scala_7>}
+'}' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>}
+'}' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Nexturn\offline_training\Scala_7>
+D:\Nexturn\offline_training\Scala_7>
+D:\Nexturn\offline_training\Scala_7>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 861A-13D9
+
+ Directory of D:\Nexturn\offline_training\Scala_7
+
+03/02/2023  02:43 PM    <DIR>          .
+03/02/2023  09:31 AM    <DIR>          ..
+03/02/2023  11:59 AM               394 AllDataType.scala
+03/02/2023  11:32 AM               117 booleanExample.scala
+03/02/2023  01:04 PM            10,808 commandsPrompt.txt
+03/02/2023  10:37 AM                97 HelloWorld.scala
+03/02/2023  02:43 PM               260 patternmatching.scala
+03/02/2023  10:43 AM               681 ScalaExample$.class
+03/02/2023  10:43 AM               717 ScalaExample.class
+03/02/2023  02:20 PM               295 ScalaReadLineFunction.scala
+03/02/2023  11:36 AM               171 shortvariable.scala
+03/02/2023  01:05 PM               435 studentPercentage.scala
+              10 File(s)         13,975 bytes
+               2 Dir(s)  301,500,936,192 bytes free
+
+D:\Nexturn\offline_training\Scala_7>scala patternmatching.scala
+patternmatching.scala:4: error: not found: value readInt
+var ip: Int = readInt()
+              ^
+
+D:\Nexturn\offline_training\Scala_7>scala patternmatching.scala
+Please Enter the value
+5
+this is default line
+
+D:\Nexturn\offline_training\Scala_7>scala patternmatching.scala
+Please Enter the value
+2
+this is second line
+
+D:\Nexturn\offline_training\Scala_7>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 861A-13D9
+
+ Directory of D:\Nexturn\offline_training\Scala_7
+
+03/02/2023  02:54 PM    <DIR>          .
+03/02/2023  09:31 AM    <DIR>          ..
+03/02/2023  11:59 AM               394 AllDataType.scala
+03/02/2023  11:32 AM               117 booleanExample.scala
+03/02/2023  02:54 PM               514 calculator.scala
+03/02/2023  01:04 PM            10,808 commandsPrompt.txt
+03/02/2023  10:37 AM                97 HelloWorld.scala
+03/02/2023  02:44 PM               292 patternmatching.scala
+03/02/2023  10:43 AM               681 ScalaExample$.class
+03/02/2023  10:43 AM               717 ScalaExample.class
+03/02/2023  02:20 PM               295 ScalaReadLineFunction.scala
+03/02/2023  11:36 AM               171 shortvariable.scala
+03/02/2023  01:05 PM               435 studentPercentage.scala
+              11 File(s)         14,521 bytes
+               2 Dir(s)  301,500,936,192 bytes free
+
+D:\Nexturn\offline_training\Scala_7>scala calculator.scala
+calculator.scala:6: error: type mismatch;
+ found   : String
+ required: Int
+var opr: Int = readLine()
+                       ^
+calculator.scala:12: error: not found: value +
+Identifiers enclosed in backticks are not pattern variables but match the value in scope.
+case + => println(first + second);
+     ^
+calculator.scala:13: error: not found: value -
+Identifiers enclosed in backticks are not pattern variables but match the value in scope.
+case - => println(first + second);
+     ^
+calculator.scala:14: error: not found: value *
+Identifiers enclosed in backticks are not pattern variables but match the value in scope.
+case * => println(first + second);
+     ^
+calculator.scala:15: error: not found: value /
+Identifiers enclosed in backticks are not pattern variables but match the value in scope.
+case / => println(first + second);
+     ^
+
+D:\Nexturn\offline_training\Scala_7>scala calculator.scala
+calculator.scala:12: error: not found: value +
+Identifiers enclosed in backticks are not pattern variables but match the value in scope.
+case + => println(first + second);
+     ^
+calculator.scala:13: error: not found: value -
+Identifiers enclosed in backticks are not pattern variables but match the value in scope.
+case - => println(first + second);
+     ^
+calculator.scala:14: error: not found: value *
+Identifiers enclosed in backticks are not pattern variables but match the value in scope.
+case * => println(first + second);
+     ^
+calculator.scala:15: error: not found: value /
+Identifiers enclosed in backticks are not pattern variables but match the value in scope.
+case / => println(first + second);
+     ^
+
+D:\Nexturn\offline_training\Scala_7>scala calculator.scala
+warning: 2 deprecations (since 2.13.3); re-run with -deprecation for details
+Please Enter the operator
++
+Please Enter the First Number
+5
+Please Enter the second Number
+2
+7
+
+D:\Nexturn\offline_training\Scala_7>scala calculator.scala
+calculator.scala:13: error: value - is not a member of String
+case "-" => println("Answer of operation " +first - second);
+                                                  ^
+
+D:\Nexturn\offline_training\Scala_7>scala calculator.scala
+warning: 2 deprecations (since 2.13.3); re-run with -deprecation for details
+Please Enter the operator
++
+Please Enter the First Number
+5
+Please Enter the second Number
+2
+Answer of operation 7
+
+D:\Nexturn\offline_training\Scala_7>scala calculator.scala
+warning: 2 deprecations (since 2.13.3); re-run with -deprecation for details
+Please Enter the operator
++
+Please Enter the First Number
+5
+Please Enter the second Number
+6
+Answer of operation 11
+
+D:\Nexturn\offline_training\Scala_7>scala calculator.scala
+warning: 2 deprecations (since 2.13.3); re-run with -deprecation for details
+Please Enter the operator
+*
+Please Enter the First Number
+1
+Please Enter the second Number
+5
+Answer of operation 5
+
+D:\Nexturn\offline_training\Scala_7>scala calculator.scala
+warning: 2 deprecations (since 2.13.3); re-run with -deprecation for details
+Please Enter the operator
+5
+Please Enter the First Number
+5
+Please Enter the second Number
+4
+print proper Operator
+
+D:\Nexturn\offline_training\Scala_7>scala calculator.scala
+warning: 2 deprecations (since 2.13.3); re-run with -deprecation for details
+Please Enter the operator
++
+Please Enter the First Number
+8
+Please Enter the second Number
+10
+Answer of operation 18
+
+D:\Nexturn\offline_training\Scala_7>dir
+ Volume in drive D is DATA
+ Volume Serial Number is 861A-13D9
+
+ Directory of D:\Nexturn\offline_training\Scala_7
+
+03/02/2023  03:15 PM    <DIR>          .
+03/02/2023  09:31 AM    <DIR>          ..
+03/02/2023  11:59 AM               394 AllDataType.scala
+03/02/2023  11:32 AM               117 booleanExample.scala
+03/02/2023  03:00 PM               630 calculator.scala
+03/02/2023  01:04 PM            10,808 commandsPrompt.txt
+03/02/2023  10:37 AM                97 HelloWorld.scala
+03/02/2023  02:44 PM               292 patternmatching.scala
+03/02/2023  10:43 AM               681 ScalaExample$.class
+03/02/2023  10:43 AM               717 ScalaExample.class
+03/02/2023  02:20 PM               295 ScalaReadLineFunction.scala
+03/02/2023  11:36 AM               171 shortvariable.scala
+03/02/2023  01:05 PM               435 studentPercentage.scala
+03/02/2023  03:15 PM               185 WhileExample.scala
+              12 File(s)         14,822 bytes
+               2 Dir(s)  301,500,936,192 bytes free
+
+D:\Nexturn\offline_training\Scala_7>scala WhileExample.scala
+WhileExample.scala:9: error: value ++ is not a member of Int
+i++;
+ ^
+
+D:\Nexturn\offline_training\Scala_7>scala WhileExample.scala
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99
+D:\Nexturn\offline_training\Scala_7>scala WhileExample.scala
+WhileExample.scala:9: error: value ++ is not a member of Int
+  i++;
+   ^
+
+D:\Nexturn\offline_training\Scala_7>scala WhileExample.scala
+warning: 1 deprecation (since 2.13.0); re-run with -deprecation for details
+10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99
+D:\Nexturn\offline_training\Scala_7>
